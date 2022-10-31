@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <meta name="title" content="Електронний журнал КПІ">
+    <meta name="description" content="Студенти КПІ можуть перевірити свою успішність">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bs5/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("assets/header.html");
+            $("#footer").load("assets/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <div id="header"></div>
+</header>
+
+<main class="mainLogin">
+    <h1>Увійти в Кампус КПІ</h1>
+    <form class="form-center">
+        <div class="containerLogin">
+            <label>Email :</label><br>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password :</label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button class="buttonLogin" type="submit">Login</button>
+            <div class="textOnBrightBackground">Немає акаунта? <a href="signInPage.html" class="containerA"> Зареєструватися</a></div>
+
+        </div>
+    </form>
+</main>
+
+<footer>
+    <div id="footer"></div>
+</footer>
+<script src="bs5/js/bootstrap.js"></script>
+<!--<script src="bs5/popper.js"></script>-->
+</body>
+</html>

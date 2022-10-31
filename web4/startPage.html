@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Page</title>
+    <meta name="title" content="Електронний журнал КПІ">
+    <meta name="description" content="Студенти КПІ можуть перевірити свою успішність">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bs5/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("assets/header.html");
+            $("#footer").load("assets/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <!--<iframe src="./assets/header.html" width="100%"></iframe>-->
+    <div id="header"></div>
+</header>
+
+<div class="sidebar">
+    <a href="startPage.html">Головна</a>
+    <a href="">Успішність</a>
+    <a href="contactsPage.html">Контакти</a>
+    <a href="FAQPage.html">FAQ</a>
+</div>
+
+<main>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-12"><img src="photos/kpi1.jpg" class="img-fluid picture"
+                                                              alt="Перший корпус КПІ"></div>
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <a href="http://kpilibrary.com/">
+                        <img src="photos/kpiLibrary.jpg"
+                             class="img-fluid picture" alt="Бібліотека КПІ">
+                    </a></div>
+                <div class="col-lg-4 col-sm-6 col-xs-12"><img src="photos/kpi18.jpg" class="img-fluid picture"
+                                                              alt="Корпус КПІ 18">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12"><img src="photos/kpiPolyana.jpg" class="img-fluid picture"
+                                                              alt="Поляна КПІ"></div>
+                <div class="col-lg-4 col-sm-6 col-xs-12"><img src="photos/kpiSosnovka.jpg" class="img-fluid picture"
+                                                              alt="Сосновка КПІ"></div>
+                <div class="col-lg-4 col-sm-6 col-xs-12"><img src="photos/kpiTrain.jpg" class="img-fluid picture"
+                                                              alt="Паровоз КПІ">
+                </div>
+            </div>
+
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum sem sit amet lorem
+            pretium, ac
+            porttitor dolor interdum. Mauris ut laoreet metus. Sed id ligula justo. Etiam quis velit convallis nulla
+            tincidunt vestibulum a eget massa. Vivamus lacinia nisi at rhoncus mollis. Cras posuere eros leo, ac
+            pulvinar
+            mauris euismod vel. Maecenas id dapibus mi, id tristique justo. Donec malesuada sapien in erat semper, in
+            tristique lacus fringilla. In lobortis luctus nulla, at tincidunt mi efficitur a. Cras malesuada quis ante
+            ac
+            tincidunt. Duis nec molestie urna. Maecenas quam est, mollis ut urna sed, dapibus volutpat dui. Pellentesque
+            quis erat a lectus scelerisque sodales sed vel magna.</p>
+        <p class="text">Pellentesque vel pretium nulla. Proin urna purus, condimentum id tincidunt ac, placerat sed
+            erat.
+            Duis porttitor
+            malesuada mi, nec dictum nunc faucibus vitae. Phasellus sed diam sit amet augue interdum tempus. Curabitur
+            semper lectus elit, eu rhoncus justo venenatis pretium. Nunc lorem elit, scelerisque quis sem vitae,
+            faucibus
+            elementum ante. Suspendisse euismod ac sapien eu cursus. Praesent vitae tincidunt risus. Aenean euismod
+            vitae
+            risus eu congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id elit in justo porttitor
+            dapibus
+            congue non urna. Aenean dictum purus rhoncus leo porttitor, sed venenatis tortor porttitor.</p>
+
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div>
+    <br>
+</main>
+
+<footer>
+    <div id="footer"></div>
+</footer>
+<script src="bs5/js/bootstrap.js"></script>
+<!--<script src="bs5/popper.js"></script>-->
+</body>
+</html>

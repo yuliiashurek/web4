@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts Page</title>
+    <meta name="title" content="Електронний журнал КПІ">
+    <meta name="description" content="Студенти КПІ можуть перевірити свою успішність">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bs5/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("assets/header.html");
+            $("#footer").load("assets/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <div id="header"></div>
+</header>
+
+<div class="sidebar">
+    <a href="startPage.html">Головна</a>
+    <a href="">Успішність</a>
+    <a href="contactsPage.html">Контакти</a>
+    <a href="FAQPage.html">FAQ</a>
+</div>
+
+<main>
+    <h2>Напишіть нам</h2>
+    <form class="form-center">
+        <div class="container-contacts">
+            <label>Your email :</label><br>
+            <input type="text" placeholder="Enter your email" name="email" required>
+            <label>Put your question here :</label>
+            <input type="text" placeholder="Enter your question" name="question" required>
+            <button class="buttonLogin" type="submit">Send</button>
+            <div class="textOnBrightBackground">Перш ніж надсилати питання, перегляньте <a class="containerA" href="FAQPage.html"> FAQ</a></div>
+        </div>
+    </form>
+</main>
+
+<footer>
+    <div id="footer"></div>
+</footer>
+<script src="bs5/js/bootstrap.js"></script>
+<!--<script src="bs5/popper.js"></script>-->
+</body>
+</html>

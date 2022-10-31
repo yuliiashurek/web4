@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Page</title>
+    <meta name="title" content="Електронний журнал КПІ">
+    <meta name="description" content="Студенти КПІ можуть перевірити свою успішність">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bs5/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("assets/header.html");
+            $("#footer").load("assets/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <div id="header"></div>
+</header>
+
+<main>
+    <h1>Новини</h1>
+    <div class="news-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-xs-12 news-column">
+                    <img class="img-fluid picture" src="photos/kpi18.jpg" alt="news1">
+                    <h4>LOREM IPSUM</h4>
+                    <div class="newsDate"> -- July 22, 2022</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tincidunt ante. Aenean eget
+                        metus pulvinar, luctus elit quis, lobortis eros. Proin in nulla sit amet quam luctus ornare ac
+                        in lorem. Nullam lacus dolor, vehicula et posuere eu, tristique et risus.</p>
+                </div>
+                <div class="col-lg-4 col-xs-12 news-column">
+                    <img class="img-fluid picture" src="photos/kpiPolyana.jpg" alt="news2">
+                    <h4>LOREM IPSUM</h4>
+                    <div class="newsDate"> -- July 22, 2022</div>
+                    <p>Cras posuere arcu vel odio feugiat, vitae tempor sem rutrum. Praesent vestibulum risus in iaculis
+                        eleifend. Pellentesque in odio cursus, mollis odio eget, porttitor turpis. Vivamus ligula
+                        turpis, consectetur in iaculis sed, ullamcorper a magna. Morbi faucibus in tortor at cursus.</p>
+                </div>
+                <div class="col-lg-4 col-xs-12 news-column">
+                    <img class="img-fluid picture" src="photos/kpiTrain.jpg" alt="news3">
+                    <h4>LOREM IPSUM</h4>
+                    <div class="newsDate"> -- July 22, 2022</div>
+                    <p>Donec vel ligula dui. Cras maximus consequat purus a varius. Suspendisse potenti. Nam accumsan
+                        quis mauris sed ultricies. Nullam mollis, velit fermentum scelerisque convallis, turpis lacus
+                        volutpat nisi, vel iaculis est tellus ut purus. In hac habitasse platea dictumst.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div id="footer"></div>
+</footer>
+<script src="bs5/js/bootstrap.js"></script>
+<!--<script src="bs5/popper.js"></script>-->
+</body>
+</html>
